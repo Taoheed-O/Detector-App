@@ -155,7 +155,61 @@ elif choose=="Info":
             }
         </style>''', unsafe_allow_html= True)
 
-        st.write("This application... ")
+        st.markdown('''
+        <div class="nice-div">
+                        </br>
+            <h1> Detector Application</h1>
+            <h2> About: </h2>
+                This application is built with streamlit.
+                It allows for three major ways of detection:
+                    <ul>
+                        <li> Detection by uploading image(s) </li>
+                        <li> Detection by uploading video(s) </li>
+                        <li> Detection using webcam </li>
+                    </ul>
+                The streamlit library is used for building the interface of the app.
+                There are two major models(pre-trained) present in this project:
+                        <ul>
+                            <li>YOLOv3</li>
+                            <li>YOLOv8</li>
+                        </ul>
+                        <h2>Files and Folders:</h2>
+                There are multiple files and folders in this project:
+                <b>FOLDERS</b>
+                    <b>functions</b>
+                        This folder contains all the necessary individual functions of the app:
+                            <ul>
+                                <li>webcam</li>
+                                    This function contains all the necessary codes for opening and displaying the detected images using webcam.
+                                <li>video_upload</li>
+                                    This function contains the codes for
+                                        <ul>
+                                            <li>uploading</li>
+                                            <li>saving</li>
+                                            <li>and detecting videos only</li>
+                                        </ul>
+                                <li>image_upload</li>
+                                    This function contains the codes to upload and detect images.
+                                <li>settings</li>
+                                    This file contains the necessary settings needed for each functions written in the functions folder to avoid repetition.
+                                <li>helper</li>
+                                    This functions contains various functions that aids the main app file outside the functions folder.
+                            </ul>
+                    <ul>
+                        <li><b>images</b></li>
+                            This folder contains local images used for testing the app.
+                        <li><b>weights</b></li>
+                        This folder contains the different YOLO weights used in the project.
+                        <li><b>uploaded_videos</b></li>
+                        This is a `code` generated folder that will store the uploaded videos to be re-read for detection in the upload_video function.
+                    </ul>
+                    <b>FILES</b>
+                    <ul>
+                        <li><b>main</b></li>
+                            This is the main file that contains the streamlit interface code and the calling of the various functions in the functions folder.
+                    </ul>
+                    <i>NB: Test the app automatically here:</i>
+        </div>''', unsafe_allow_html=True)
 
     elif info == "Developer":
         st.markdown(""" <style> .font {
@@ -200,7 +254,7 @@ elif choose=="Info":
 
         <b> Professional Experience: </b>
                     <br/>
-                    I have 3 years of experience as a Data Scientist, working with diverse organizations as an intern. In my previous role at Zummit Africa, I successfully worked on several projects that involved developing predictive models and Natural language processing. My work directly contributed to the success of my team.
+                    I have more than 3 years of experience as a Data Scientist, working with diverse organizations as an intern. In my previous role at Zummit Africa, I successfully worked on several projects that involved developing predictive models and Natural language processing. My work directly contributed to the success of my team.
 
         Furthermore, I collaborated closely with cross-functional teams, including data engineers and machine learning engineers, to work on numerous projects including Large Language Models and computer vision. My expertise in programming languages such as Python and SQL, coupled with my proficiency in data manipulation and analysis tools, allowed me to effectively extract, clean, and transform large datasets for analysis.
 
