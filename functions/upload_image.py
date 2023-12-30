@@ -12,7 +12,7 @@ import pandas as pd
 
 #Image upload function
 def image_upload():
-    uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "png"])
+    uploaded_file = st.file_uploader("Choose an image file", type=["jpg", "png", "jpeg"])
 
     if uploaded_file is not None:
         st.success("Image uploaded successfully")
