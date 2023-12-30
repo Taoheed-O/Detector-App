@@ -12,18 +12,6 @@ st.title("Detector App")
 
 
 
-
-# web cam
-# st.markdown(""" <style> .font {
-#     font-size:20px ; font-family: 'Cooper Black'; color: black;} 
-#     </style> """, unsafe_allow_html=True)
-# st.markdown('<p class="font">Open webcam</p>', unsafe_allow_html=True)
-
-
-
-
-
-
 # Upper sidebar
 with st.sidebar:
     choose = option_menu("Upload Menu", [ "Webcam","Video","Image", "Info"],
@@ -57,8 +45,6 @@ if choose == "Webcam":
     play_webcam(confidence, model)
     
 
-
-
 elif choose == "Video":
     st.markdown(""" <style> .font {
         font-size:30px ; font-family: 'Cooper Black'; color: black;} 
@@ -81,10 +67,6 @@ elif choose == "Video":
     
     detect_video(confidence=confidence, model=model)
     
-
-    
-    
-
 
 elif choose == "Image":
     st.markdown(""" <style> .font {
