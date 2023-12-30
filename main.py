@@ -1,6 +1,6 @@
 import streamlit as st
 from functions.webcam import play_webcam
-from functions.video_upload import upload_video, detect_video, save_file
+from functions.video_upload import detect_video
 from functions.upload_image import image_upload, image_detection
 from functions.redundant.upload_multiple import upload_multiple
 from streamlit_option_menu import option_menu

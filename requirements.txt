@@ -4,3 +4,4 @@ pandas
 numpy
 matplotlib
 ultralytics
+streamlit_option_menu

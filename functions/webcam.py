@@ -1,8 +1,5 @@
 import cv2
 import streamlit as st
-from streamlit_webrtc import VideoTransformerBase
-import streamlit as st
-import cv2
 from functions.helper import  display_tracker_options, display_detected_frames
 from functions import settings
 
