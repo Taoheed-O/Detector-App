@@ -8,6 +8,7 @@ from pathlib import Path
 from functions import settings, helper
 
 st.set_page_config(layout='wide')
+st.title("Detector App")
 
 
 
