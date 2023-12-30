@@ -1,13 +1,9 @@
 import streamlit as st
-import moviepy.editor as moviepy
-from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 from functions.webcam import play_webcam
 from functions.video_upload import upload_video, detect_video, save_file
 from functions.upload_image import image_upload, image_detection
 from functions.redundant.upload_multiple import upload_multiple
 from streamlit_option_menu import option_menu
-import numpy as np
-import cv2
 from pathlib import Path
 from functions import settings, helper
 
