@@ -38,4 +38,4 @@ def play_webcam(conf, model):
                     break
         except Exception as e:
             st.sidebar.error("Error loading video: " + str(e))
-            
+

@@ -5,4 +5,3 @@ numpy
 matplotlib
 ultralytics
 streamlit_option_menu
-cv2
