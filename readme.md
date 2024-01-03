@@ -54,3 +54,5 @@
         * click on the link (localhost).
 
 ### NB: Test the app automatically here:
+
+        `Not yet available`
