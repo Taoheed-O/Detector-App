@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import streamlit as st
 import cv2
 
+
 # load model function (#used)
 def load_model(model_path):
     """
@@ -16,6 +17,7 @@ def load_model(model_path):
     model = YOLO(model_path)
     return model
 
+
 # display tracker option (#used)
 def display_tracker_options():
     display_tracker = st.radio("Display Tracker", ('Yes', 'No'))
@@ -24,6 +26,7 @@ def display_tracker_options():
         tracker_type = st.radio("Tracker", ("bytetrack.yaml", "botsort.yaml"))
         return is_display_tracker, tracker_type
     return is_display_tracker, None
+
 
 # detected frames display (#used)
 def display_detected_frames(conf, model, st_frame, image):

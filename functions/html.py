@@ -56,8 +56,6 @@ ABOUT_APP = '''
 
 
 
-
-
 ABOUT_DEV = '''
         <div class="nice-div">          
                     <br/>   
@@ -92,7 +90,6 @@ ABOUT_DEV = '''
         If you are seeking a dedicated and experienced Data Scientist who can bring valuable insights to your organization, feel free to reach out. I am eager to explore new opportunities, contribute to impactful projects, and be part of a team that shares a vision for harnessing the power of data to drive success.
             </div>
                 '''
-
 
 
 STYLE = '''
