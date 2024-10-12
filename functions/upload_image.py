@@ -45,6 +45,7 @@ def image_detection(file):
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
         net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
+
         def findObjects(outputs,img):
             hT, wT, cT = img2.shape
             bbox = []
