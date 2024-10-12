@@ -39,8 +39,8 @@ def image_detection(file):
         #f = open(r'C:\Users\Olazaah\Downloads\stream\labels\coconames.txt','r')
         #lines = f.readlines()
         #classNames = [line.strip() for line in lines]
-        config_path = r"C:\\Users\\BAB AL SAFA\\Desktop\\MINE\\Detector-App\\weights\\yolov3-spp.cfg"
-        weights_path = r"C:\\Users\\BAB AL SAFA\\Desktop\\MINE\\Detector-App\\weights\\yolov3-spp.weights"
+        config_path = r"C:\\Users\\USER\\My Projects Folder\\Detector-App\\weights\\yolov3-spp.cfg"
+        weights_path = r"C:\\Users\\USER\\My Projects Folder\\Detector-App\\weights\\yolov3-spp.weights"
         net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
         net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
