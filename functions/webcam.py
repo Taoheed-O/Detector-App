@@ -4,6 +4,7 @@ from functions.helper import  display_tracker_options, display_detected_frames
 from functions import settings
 import time
 
+
 # Webcam function
 def play_webcam(conf, model):
     """
@@ -49,3 +50,4 @@ def play_webcam(conf, model):
             vid_cap.release()
         except Exception as e:
             st.sidebar.error(f"Error loading video: {str(e)}")
+
