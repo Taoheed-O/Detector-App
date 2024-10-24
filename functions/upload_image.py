@@ -95,7 +95,7 @@ def image_detection(file):
         outputs = net.forward(outputNames)
         findObjects(outputs,img2)
     
-        st.image(img2, caption='Proccesed Image.')
+        st.image(img2, caption='Processed Image.')
         
         cv2.waitKey(0)
         
